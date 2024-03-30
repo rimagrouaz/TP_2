@@ -1,0 +1,69 @@
+body{
+    background-color:#003A6A;
+    color: white;
+    background-attachment: local;
+    background-repeat: no-repeat;
+}
+small{
+    color: rgb(101, 150, 194);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#t1{
+    font-size: 26px;
+    color: rgb(255, 255, 255);
+    font-family: 'Courier New', Courier, monospace;
+}
+#t2{
+    font-size: 15px;
+    color:rgb(228, 223, 216);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-shadow: 0px 0px 2px grey;
+}
+#t4{
+    font-size: 15px;
+}
+#t5{
+    float: right;
+    width: 25%;
+}
+.head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    margin-top: 20px;
+}
+.head div{
+    width: 800px;
+}
+#t5{
+    margin-right: 0%;
+}
+table{
+    background-color:rgb(41, 99, 149); 
+    align-content: center;
+    color:rgb(194, 187, 187);
+    width: 100%;
+    text-align: center;
+    padding: 0%;
+    table-layout: fixed;
+}
+select{
+    border: 0px solid gray;
+    background-color: rgb(33, 75, 112); 
+    color: rgb(194, 187, 187);
+}
+#t6{
+    color: yellow;
+}
+#t6:hover{
+    color: white;
+}
+input[type=text]{
+    background-color: rgb(33, 75, 112); 
+    margin: 0%;
+    border-color: rgb(66, 128, 195);
+}
+.t7:hover{
+    color: white;
+}

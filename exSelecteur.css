@@ -1,0 +1,43 @@
+p a {
+    color: blue; /* Exemple de style */
+}
+
+div.enonce img.encadre {
+    border: 2px solid black; /* Exemple de style */
+}
+
+img[width="300"] {
+    width: 200px; /* Exemple de style */
+}
+
+article.remarque time[datetime] {
+    font-style: italic; /* Exemple de style */
+}
+
+div.exemple > p {
+    font-weight: bold; /* Exemple de style */
+}
+
+p#important > img.encadre {
+    opacity: 0.5; /* Exemple de style */
+}
+
+div > img:first-child {
+    border: 1px solid red; /* Exemple de style */
+}
+
+* > img:nth-child(odd) {
+    filter: grayscale(100%); /* Exemple de style */
+}
+
+article.exercice > p:first-child a[href$=".jpg"] {
+    text-decoration: none; /* Exemple de style */
+}
+
+div.reponse + div.remarque {
+    margin-top: 20px; /* Exemple de style */
+}
+
+section article > p:nth-child(2) {
+    color: green; /* Exemple de style */
+}

@@ -1,43 +1,43 @@
 p a {
-    color: blue; /* Exemple de style */
+    color: blue; 
 }
 
 div.enonce img.encadre {
-    border: 2px solid black; /* Exemple de style */
+    border: 2px solid black; 
 }
 
 img[width="300"] {
-    width: 200px; /* Exemple de style */
+    width: 200px;
 }
 
 article.remarque time[datetime] {
-    font-style: italic; /* Exemple de style */
+    font-style: italic;
 }
 
 div.exemple > p {
-    font-weight: bold; /* Exemple de style */
+    font-weight: bold; 
 }
 
 p#important > img.encadre {
-    opacity: 0.5; /* Exemple de style */
+    opacity: 0.5; 
 }
 
 div > img:first-child {
-    border: 1px solid red; /* Exemple de style */
+    border: 1px solid red;
 }
 
 * > img:nth-child(odd) {
-    filter: grayscale(100%); /* Exemple de style */
+    filter: grayscale(100%); 
 }
 
 article.exercice > p:first-child a[href$=".jpg"] {
-    text-decoration: none; /* Exemple de style */
+    text-decoration: none; 
 }
 
 div.reponse + div.remarque {
-    margin-top: 20px; /* Exemple de style */
+    margin-top: 20px; 
 }
 
 section article > p:nth-child(2) {
-    color: green; /* Exemple de style */
+    color: green; 
 }

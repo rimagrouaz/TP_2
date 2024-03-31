@@ -1,0 +1,118 @@
+#t1{
+    border-style: solid;
+    border-color: #476993;
+    background-color: #558ED5;
+    color: white;
+    height: 50px;
+    padding-top: 10px;
+    padding-left: 45%;
+}
+#t2{
+    border-style: solid;
+    border-color: #476993;
+    background-color: #C4BD97;
+    color: white;
+    height: 50px;
+    padding-top: 10px;
+    padding-left: 45%;
+}
+#t3{
+    border-style: solid;
+    border-color: #476993;
+    background-color: #c6d9f1;
+    color: white;
+    height: 80px;
+    width: 100px;
+    padding: 40px;
+   padding-bottom: 0px;
+}
+#t4{
+    border-style: solid;
+    border-color: #476993;
+    background-color: #e6b9b8;
+    color: white;
+    height: 80px;
+    width: 100px;
+    padding: 40px;
+   padding-bottom: 0px;
+}
+#t5{
+    border-style: solid;
+    border-color: #476993;
+    background-color: #c3d69b;
+    color: white;
+    height: 80px;
+    width: 100px;
+    padding: 40px;
+   padding-bottom: 0px;
+}
+#t6{
+    border-style: solid;
+    border-color: #476993;
+    background-color: #fac090;
+    color: white;
+    height: 80px;
+    width: 100px;
+    padding: 40px;
+    padding-bottom: 0px;
+}
+#d1,#d2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#t7,#t8 {
+    border-style: solid;
+    border-color: #476993;
+    background-color: #00b0f0;
+    color: white;
+    padding-left: 250px;
+    padding-right: 200px;
+    padding-top: 70px;
+    width: 100px;
+    height: 110px;
+    margin: 0;
+}
+#t9{
+    border-style: solid;
+    border-color: #476993;
+    background-color: #af9fc3;
+    color: white;
+    height: 50px;
+    padding-top: 10px;
+    padding-left: 45%;
+
+}
+body{
+    width: 100%;
+}
+@media screen and (min-width:193px) {
+    body {
+        max-width: 193px;
+    }
+}
+@media screen and (min-width:475px) {
+    body {
+        max-width: 475px;
+    }
+}
+@media screen and (min-width:680px) {
+    body {
+        max-width: 680px;
+    }
+}
+@media screen and (min-width:768px) {
+    body {
+        max-width: 768px;
+    }
+}
+@media screen and (min-width:1024px) {
+    body {
+        max-width: 1024px;
+    }
+}
+@media screen and (min-width:1536px) {
+    body {
+        max-width: 1536px;
+    }
+}

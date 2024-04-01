@@ -2,6 +2,10 @@
 function estPair($nombre) {
     return $nombre % 2 == 0;
 }
+
+$precedent = null;
+$precedent_precedent = null;
+
 do {
     $nombre = rand(1, 100);
     if (estPair($nombre)) {

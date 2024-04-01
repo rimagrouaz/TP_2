@@ -7,12 +7,17 @@
   echo "Le nombre de tirages aléatoires est : $i";
 ?>
 <?php
-  $j=0;
-  $nombre=rand(100,999);
-  for($i=0;$i<$j;$j++){
-    if(rand(100,999)!=$nombre){
-      $j++;
+$nombre = rand(100, 999);
+$tirages = 0;
+
+for ($i = 0; ; $i++) {
+    $tirage = rand(100, 999);
+    $tirages++;
+
+    if ($tirage == $nombre) {
+        break;
     }
-  }
-  echo "Le nombre de tirages aléatoires est : $j";
+}
+
+echo "Le nombre de tirages aléatoires est : $tirages";
 ?>
